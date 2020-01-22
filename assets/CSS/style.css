@@ -1,0 +1,56 @@
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #cccccc;
+    font-size: 50px;
+    width: 100%;
+    position: relative;
+    padding-left: 40%;
+}
+
+.topnav {
+  background-color: #4aaaa5;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(117, 117, 117);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.navbar-brand {
+    padding-left: 550px;
+}
+
+  h1 {
+      color: #4aaaa5;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  a {
+      color: black;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+  

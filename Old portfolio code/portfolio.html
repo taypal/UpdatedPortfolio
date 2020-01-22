@@ -1,75 +1,106 @@
-]
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- <img class="img2" src="assets/images/cheap_diagonal_fabric.png" alt="ToptalSubtlePatterns"> -->
-
+    
 </head>
-
 <body>
-    <header>
-        <a href="#"> Taylor Paletta </a>
+    <header>Taylor Paletta</header>
 
-
-        <div class=nav>
-            <a href="index.html">About</a>
-            <a href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            </ul>
         </div>
-    </header>
+    </nav>
 
-    <div class="clearfix">
+    <div class="container2">
+        <h1>Portfolio</h1>
+        
+            <div class="card-deck1">
 
-        <div class="projects">
-
-            <div class="Hangman">
                 <a href="#">
-                    <img src="images/grey.png" alt="#">
-                    <div class="overlay">Hangman</div>
+                <div class="card">
+                  <img src="assets/images/grey.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Hangman</h5>
+                  </div>
+                </div>
+                </a>
+
+                <a href="#">
+                <div class="card">
+                  <img src="assets/images/blue.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">RPG Game</h5>
+                  </div>
+                </div>
+                </a>
+            </div>
+            
+            <div class="card-deck2">
+
+                <a href="#">
+                    <div class="card">
+                      <img src="assets/images/pink.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Trivia Game</h5>
+                      </div>
+                    </div>
+                    </a>
+    
+                    <a href="#">
+                    <div class="card">
+                      <img src="assets/images/purple.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Rutgers Info Widget</h5>
+                      </div>
+                    </div>
                 </a>
             </div>
 
-            <div class="RPGGame">
+            <div class="card-deck3">
+
                 <a href="#">
-                    <img src="images/blue.png" alt="#">
-                    <div class="overlay">RPG Game</div>
-                </a>
+                    <div class="card">
+                      <img src="assets/images/yellow.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Rock Paper Scissors</h5>
+                      </div>
+                    </div>
+                    </a>
+    
+                    <!-- <a href="#">
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                      </div>
+                    </div>
+                </a> -->
             </div>
 
-            <div class="TriviaGame">
-                <a href="#">
-                    <img src="images/pink.png" alt="#">
-                    <div class="overlay">Trivia Game</div>
-                </a>
-            </div>
-
-            <div class="Rutgers">
-                <a href="#">
-                    <img src="images/purple.png" alt="#">
-                    <div class="overlay">Rutgers Info Widget</div>
-                </a>
-            </div>
-
-            <div class="RPS">
-                <a href="#">
-                    <img src="images/yellow.png" alt="#">
-                    <div class="overlay">Rock Paper Scissors</div>
-                </a>
-            </div>
-        </div>
-
+        
     </div>
-
-
-
+    
 </body>
-
-
 </html>
