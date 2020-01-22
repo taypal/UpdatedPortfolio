@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Snow Report</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS: reset.css, Materialize, and main style.css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 id="shouldISki" class="center white-text">Should I go skiing today?</h2>
+        </div>
+    </header>
+
+    <main class="hide">
+
+        <div id="resortHeader" class="container">
+            <h2 id="resortName" class="center white-text"></h2>
+            <h5 id="todaysDate" class="center white-text"></h5>
+        </div>
+
+        <div id="snowReport" class="container">
+            <div class="row">
+                <div class="col s6 l3">
+                    <div class="card center cyan darken-1">
+                        <div class="card-content white-text" style="padding-top: 0px;">
+                            <span class="card-title">Conditions</span>
+                            <h3 id="data1"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 l3">
+                    <div class="card center cyan darken-1">
+                        <div class="card-content white-text" style="padding-top: 0px;">
+                            <span class="card-title">Last Snow</span>
+                            <h3 id="data2"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 l3">
+                    <div class="card center cyan darken-1">
+                        <div class="card-content white-text" style="padding-top: 0px;">
+                            <span class="card-title">Lower Depth</span>
+                            <h3 id="data3"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 l3">
+                    <div class="card center cyan darken-1">
+                        <div class="card-content white-text" style="padding-top: 0px;">
+                            <span class="card-title flow-text">Upper Depth</span>
+                            <h3 id="data4"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 l3">
+                    <div class="card center cyan darken-1">
+                        <div class="card-content center white-text iconCard" style="padding-top: 0px;">
+                            <span class="card-title">Weather</span>
+                            <img id="weatherIcon" src="" alt="temporaryIcon">
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 l3">
+                    <div class="card center cyan darken-1">
+                        <div class="card-content center white-text" style="padding-top: 0px;">
+                            <span class="card-title">Fresh Snow</span>
+                            <h3 id="data5"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 l3">
+                    <div class="card center cyan darken-1">
+                        <div class="card-content center white-text" style="padding-top: 0px;">
+                            <span class="card-title">Temp</span>
+                            <h3 id="data6"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6 l3">
+                    <div class="card center cyan darken-1">
+                        <div class="card-content center white-text" style="padding-top: 0px;">
+                            <span class="card-title">Wind</span>
+                            <h3 id="data7"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l6">
+                    <div id="twitter"></div>
+                </div>
+                <div class="col s12 l6">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div id="dropdown" class="container center">
+            <div class="row">
+                <h5 class="white-text">Where do you want to ski?</h5>
+            </div>
+            <div class="row">
+
+                <div class="input-field center">
+                    <select class="browser-default center">
+                        <option value="" disabled selected>Choose your resort</option>
+                        <option value="Zermatt">Zermatt</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="row">
+                <a id="searchButton" class="waves-effect waves-light btn-large cyan darken-1">Should I ski?</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Inline JavaScript -->
+
+    <!-- jQuery and Materialize.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="assets/javascript/script.js"></script>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWnarAnM5iU1S8bdpK_7FGu6ChEXMe7tY&callback=initMap">
+        </script>
+
+</body>
+
+</html>

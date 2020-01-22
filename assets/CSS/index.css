@@ -16,9 +16,9 @@
     float: left;
     z-index: 800;
     padding: 5px;
-    height: 357px;
+    height: 400px;
   }
 
-  .col-sm-6 {
-    max-width: 49%;
+  .col-sm-4 {
+    max-width: 32.333333%;
   }

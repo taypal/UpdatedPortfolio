@@ -57,6 +57,7 @@ header {
   a {
       color: black;
       font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
   }
 
   button {
@@ -65,6 +66,10 @@ header {
     color: white;
     border-radius: .25rem;
     margin-bottom: 15px;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 

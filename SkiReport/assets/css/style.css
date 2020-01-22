@@ -1,0 +1,122 @@
+/* sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("../images/snowy-mountain-peak-418626_dark.png");
+    /* Photo by Tyler Lastovich from Pexels */
+    background-size: cover;      
+  }
+
+  main {
+    flex: 1 0 auto;        
+  }
+
+  /* header text */ 
+  #shouldISki {
+      margin-top: 125px;
+      margin-bottom: 75px;
+      font-family: 'Lobster', cursive;
+  }
+
+  #resortInput {
+      width: 200px;
+  }
+
+  #snowReport {
+    max-width: 700px;
+    margin: auto;
+  }
+
+   .card {
+    height: 150px;    
+    opacity: .8;
+    border-radius: 10px;
+    padding-top: 0px;
+    min-width: 150px;
+  }
+
+  .card-content {
+    padding-top: 0px;
+  }
+
+  span {
+    margin-top: 0px;
+    /* font-size: 40px; */
+  }
+
+  h3 {
+    font-size: min(max(16px, 4vw), 22px);
+    vertical-align: middle;
+  }
+
+  .card-title {
+    border-bottom:  solid 1px;
+    padding-bottom: 5px;
+    font-size: 18px !important;
+  }
+
+  .twitter-tweet {
+    margin: auto;
+  }
+
+  #dropdown {
+    width: 300px;
+  }
+
+  #searchButton {
+    border-radius: 10px;
+  }
+
+  footer {
+    margin: auto;
+    width: 500px;
+  }
+
+  input {
+    opacity: .8;
+  }
+
+  .iconCard {
+    padding-top: 0px !important;
+  }
+  #weatherIcon {
+    height: 75px;
+    margin-top: 0px;
+  }
+
+  #lastSnow{
+    margin-top: 0px;
+  }
+
+  #twitter{
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  #twitter::-webkit-scrollbar {
+    width: 10px;    
+  }
+
+  #twitter::-webkit-scrollbar-thumb {
+    background: #00acc1;
+    border-radius: 5px;
+  }
+
+  #data2{
+    margin-bottom: 8px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  /* Set the size of the div element that contains the map */
+ #map {
+   height: 400px;  /* The height is 400 pixels */
+   width: 100%;  /* The width is the width of the web page */
+   border-radius: 10px    
+  }
