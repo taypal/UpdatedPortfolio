@@ -16,3 +16,8 @@
     border-radius: .25rem;
     margin-bottom: 15px;
 }
+
+p {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

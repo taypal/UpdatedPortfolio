@@ -22,3 +22,8 @@
   .col-sm-4 {
     max-width: 32.333333%;
   }
+
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+  }
